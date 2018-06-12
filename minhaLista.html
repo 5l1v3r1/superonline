@@ -44,11 +44,11 @@
         <li class="dropdown">
           <a href="alimentos.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Alimentos <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="alimentos.html">Arroz</a></li>
-            <li><a href="alimentos.html">Feijão</a></li>
-            <li><a href="alimentos.html">Farinhas e Farofas</a></li>
-            <li><a href="alimentos.html">Cereais e Grãos</a></li>
-            <li><a href="alimentos.html">Outros</a></li>
+            <li><a href="arroz.html">Arroz</a></li>
+            <li><a href="feijao.html">Feijão</a></li>
+            <li><a href="farinhas.html">Farinhas e Farofas</a></li>
+            <li><a href="cereais.html">Cereais e Grãos</a></li>
+            <li><a href="alimentos_outros.html">Outros</a></li>
           </ul>
         </li>
         
@@ -56,9 +56,9 @@
         <li class="dropdown">
           <a href="higiene.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Higiene e Beleza <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="higiene.html">Absorventes</a></li>
-            <li><a href="higiene.html">Sabonetes</a></li>
-            <li><a href="higiene.html">Desodorantes</a></li>
+            <li><a href="absorventes.html">Absorventes</a></li>
+            <li><a href="sabonetes.html">Sabonetes</a></li>
+            <li><a href="desodorantes.html">Desodorantes</a></li>
           </ul>
         </li>
         
@@ -66,10 +66,10 @@
         <li class="dropdown">
           <a href="bebidas.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bebidas <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="bebidas.html">Vinhos</a></li>
-            <li><a href="bebidas.html">Água Mineral</a></li>
-            <li><a href="bebidas.html">Aperitivos e Destilados</a></li>
-            <li><a href="bebidas.html">Bebidas de Soja</a></li>
+            <li><a href="vinhos.html">Vinhos</a></li>
+            <li><a href="agua_mineral.html">Água Mineral</a></li>
+            <li><a href="aperitivos_destilados.html">Aperitivos e Destilados</a></li>
+            <li><a href="bebidas_soja.html">Bebidas de Soja</a></li>
           </ul>
         </li>
         
@@ -77,9 +77,9 @@
         <li class="dropdown">
           <a href="limpeza.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Limpeza <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="limpeza.html">Amaciantes</a></li>
-            <li><a href="limpeza.html">Alvejantes e Tira Manchas</a></li>
-            <li><a href="limpeza.html">Limpeza Geral</a></li>
+            <li><a href="amaciantes.html">Amaciantes</a></li>
+            <li><a href="alvejantes.html">Alvejantes e Tira Manchas</a></li>
+            <li><a href="limpeza_geral.html">Limpeza Geral</a></li>
           </ul>
         </li>
       </ul>
@@ -100,7 +100,7 @@
             <li><a href="cadastroCliente.html">Cadastrar-se</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="minhaLista.html">Minha Lista</a></li>
-            <li><a href="#">Sair</a></li>
+            <li><a href="index.html">Sair</a></li>
           </ul>
         </li>
       </ul>
@@ -109,13 +109,144 @@
 </nav>
  <!-- FIM MENU --> 
       
-      <!-- CONTEUDO DE CADA PÁGIONA -->
-      
-      <h1>MINHA LISTA</h1>
-
+      <div class="container-fluid jumbotron jumbotron-fluid">
+    <div class="container">
+	<div class="row">
+		<h2 class="text-center">Lista de Produtos</h2>
+	</div>
+	
+	
+	<div class="row">
+	    
+	    <div class='col-sm-8 col-md-8'>
+	        
+    	    
+    	    <table class='table'>
+    	        <thead>
+    	            <tr>
+        	            <th>Imagem</th>
+        	            <th>Descrição</th>
+        	            <th>Quantidade</th>
+        	            <th>Data</th>
+        	            <th></th>	                
+    	            </tr>
+    	        </thead>
+    	        <tbody>
+    	            
+    	           <tr>
+    	               <td><img src="img/cerveja_Itaipava.jpg"  class="img-rounded img-responsive" alt="Cinque Terre" width="30%" ></img> </td>
+    	               <td>Cerveja Itaipava Premium Long Nek - 355ml</td>
+    	               <td>
+                       <div class="form-group">
+                      <select class="form-control" id="sel1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                      </select>
+                    </div>
+    	                 
+    	               </td>
+    	               
+    	               <td>
+    	                  12/06/2018
+    	               </td>
+    	               <td>
+    	                    <a href=""><button type="button" class="btn btn-danger">Excluir Item</button></a>
+    	               </td>
+    	           </tr>
+    	           
+    	           
+    	           
+    	           
+    	           <tr>
+    	               <td><img src="img/Feijao1.jpg"  class="img-rounded img-responsive" alt="Cinque Terre" width="30%" ></img> </td>
+    	               <td>Feijão Preto Combrasil Tipo 1Kg</td>
+    	               <td>
+                       <div class="form-group">
+                      <select class="form-control" id="sel1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                      </select>
+                    </div>
+    	                 
+    	               </td>
+    	               
+    	               <td>
+    	                  12/06/2018
+    	               </td>
+    	               <td>
+    	                    <a href=""><button type="button" class="btn btn-danger">Excluir Item</button></a>
+    	               </td>
+    	           </tr>
+    	           
+    	           
+    	           
+    	           <tr>
+    	               <td><img src="img/Arroz1.jpg"  class="img-rounded img-responsive" alt="Cinque Terre" width="30%" ></img> </td>
+    	               <td>Arroz Sepé Bianco Tipo 1 5Kg</td>
+    	               <td>
+                       <div class="form-group">
+                      <select class="form-control" id="sel1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                      </select>
+                    </div>
+    	                 
+    	               </td>
+    	               
+    	               <td>
+    	                  12/06/2018
+    	               </td>
+    	               <td>
+    	                    <a href=""><button type="button" class="btn btn-danger">Excluir Item</button></a>
+    	               </td>
+    	           </tr>
+    	           
+    	           
+    	            <tr>
+    	               <td><img src="img/Absorventes1.jpg"  class="img-rounded img-responsive" alt="Cinque Terre" width="30%" ></img> </td>
+    	               <td>Absorvente Always Suave</td>
+    	               <td>
+                       <div class="form-group">
+                      <select class="form-control" id="sel1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                      </select>
+                    </div>
+    	                 
+    	               </td>
+    	               
+    	               <td>
+    	                  12/06/2018
+    	               </td>
+    	               <td>
+    	                    <a href=""><button type="button" class="btn btn-danger">Excluir Item</button></a>
+    	               </td>
+    	           </tr>
+    	           
+    	           
+    	           
+    
+    	        </tbody>
+    	    </table>
+    	    
+	    </div>
+	    
+	    
+	</div>
+	
+	
+</div>
+</div>
 
     
-    <!-- AQUI VAI O CONTEUDO DE CADA PAGINA-->
     
   
   <!-- RODAPÉ -->

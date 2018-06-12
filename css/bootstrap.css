@@ -35,6 +35,9 @@ video {
   display: inline-block;
   vertical-align: baseline;
 }
+
+
+
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -193,7 +196,7 @@ th {
   *,
   *:before,
   *:after {
-    color: #000 !important;
+    color: #fff !important;
     text-shadow: none !important;
     background: transparent !important;
     -webkit-box-shadow: none !important;
@@ -5868,6 +5871,11 @@ button.close {
 }
 .modal-open {
   overflow: hidden;
+}
+
+.centralizado {
+    margin: 0 auto;
+    float: none;
 }
 .modal {
   position: fixed;
